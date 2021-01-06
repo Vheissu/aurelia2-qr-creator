@@ -8,7 +8,6 @@
   },
   "license": "UNLICENSED",
   "dependencies": {
-    "@aurelia/fetch-client": "^0.9.0-dev.202012231727",
     "aurelia": "^0.9.0-dev.202012231727"
   },
   "devDependencies": {
