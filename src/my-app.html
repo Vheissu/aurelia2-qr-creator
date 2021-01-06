@@ -1,1 +1,10 @@
-<div class="message">${message}</div>
+<h1>Generate a QR code</h1>
+
+<form submit.trigger="formSubmit()">
+    <input type="text" value.bind="url" placeholder="Enter a URL">
+    <button type="submit">Generate</button>
+
+    <div if.bind="image" class="img-wrapper">
+        <img src.bind="image">
+    </div>
+</form>
